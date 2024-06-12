@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df4e9799771b4807b99b1a931c899515, type: 3}
+  m_Name: Objects_Config
+  m_EditorClassIdentifier: 
+  _numberObjects: 4
+  _startingPoolCapacity: 1
+  _objectConfigs:
+  - _object: {fileID: -8679921383154817045, guid: 314df01057a8a9046b9352f57b4ca335, type: 3}
+    _voxelSize: 0.1
+    _numberEdgeVoxels: 13
+    _chanceSpawn: 28
+  - _object: {fileID: 997369369039428083, guid: afadad637206f8a4aa6f96abda12e3a3, type: 3}
+    _voxelSize: 0.1
+    _numberEdgeVoxels: 20
+    _chanceSpawn: 20
+  - _object: {fileID: 8250409892077133078, guid: 9da68f5cd60c7e04c9907d47e5fc2350, type: 3}
+    _voxelSize: 0.1
+    _numberEdgeVoxels: 20
+    _chanceSpawn: 68
+  - _object: {fileID: 6286020899480530106, guid: f13c2a040d8a0ad418af45880026e1f7, type: 3}
+    _voxelSize: 0.1
+    _numberEdgeVoxels: 10
+    _chanceSpawn: 3
+  - _object: {fileID: 3176366706290392807, guid: 3bf90d824a096314a9c25b5fe3fff587, type: 3}
+    _voxelSize: 0.1
+    _numberEdgeVoxels: 20
+    _chanceSpawn: 7
